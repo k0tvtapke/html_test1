@@ -1,0 +1,87 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.cover{
+    background-image: url('../images/factory-image.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    align-content: center;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    height: 900px;
+}
+
+.about-company{
+    background-color: ghostwhite;
+    align-content: center;
+    padding: 50px 200px;
+}
+
+.about-company p{
+    text-align: center;
+}
+
+.employees{
+    text-align: center;
+    font-size: 24px;
+    padding: 50px 200px;
+}
+
+.employees-images{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.employees-images img{
+    height: 300px;
+}
+
+.employee{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.employee p{
+    margin: 5px;
+}
+
+.gallery{
+    background-color: ghostwhite;
+    text-align: center;
+    font-size: 24px;
+    padding: 50px 200px;
+}
+
+.gallery-images{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.gallery-images img{
+    height: 300px;
+}
+
+.gallery-image{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contacts{
+    padding: 50px 200px;
+    text-align: center;
+    align-content: center;
+}
+
+.contacts p{
+    font-size: 18px;
+}
