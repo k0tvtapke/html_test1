@@ -3,51 +3,48 @@ body{
     margin: 0;
 }
 
-h2{
+div{
+    align-content: center;
     text-align: center;
-    font-size: 32px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 20px;
 }
 
 .cover{
     background-image: url('../images/factory-image.jpg');
     background-size: cover;
     background-position-y: bottom;
-    align-content: center;
-    text-align: center;
-    font-size: 36px;
     color: white;
-    height: 900px;
+    padding: 200px 200px;
+}
+
+.cover h1{
+    font-size: 72px;
+    margin: 0;
+}
+
+.cover p{
+    margin: 0;
+    font-size: 24px;
 }
 
 .about-company{
     background-color: ghostwhite;
-    align-content: center;
     padding: 50px 200px;
 }
 
-.about-company p{
-    text-align: center;
+.description{
+    text-align: left;
 }
 
 .employees{
-    text-align: center;
-    font-size: 24px;
     padding: 50px 200px;
-}
-
-.employees-images{
-    display: flex;
-    justify-content: center;
-    padding: 50px 200px;
-}
-
-.employees-images img{
-    height: 300px;
-}
-
-.employee{
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .employee p{
@@ -56,32 +53,25 @@ h2{
 
 .gallery{
     background-color: ghostwhite;
-    text-align: center;
-    font-size: 24px;
     padding: 50px 200px;
 }
 
-.gallery-images{
+.central-alignment{
     display: flex;
     justify-content: center;
-    padding: 50px 200px;
 }
 
-.gallery-images img{
-    height: 300px;
-}
-
-.gallery-image{
+.image{
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.contacts{
-    padding: 50px 200px;
-    text-align: center;
-    align-content: center;
+.image img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
-.contacts p{
-    font-size: 18px;
+.contacts{
+    padding: 50px 200px;
 }
